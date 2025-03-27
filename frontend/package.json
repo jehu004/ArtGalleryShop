@@ -14,7 +14,10 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.3.0",
+<<<<<<< HEAD
     "sass": "^1.86.0",
+=======
+>>>>>>> deed6525f137046e4e43caefc01c5cd09c752158
     "tailwindcss": "^4.0.14"
   },
   "devDependencies": {

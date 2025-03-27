@@ -14,7 +14,10 @@ export const artworks = [
     setSelectedArt(art);
   };
   
+<<<<<<< HEAD
   
+=======
+>>>>>>> deed6525f137046e4e43caefc01c5cd09c752158
   export const closeModal = (setSelectedArt) => {
     console.log("Closing modal");  
     setSelectedArt(null);

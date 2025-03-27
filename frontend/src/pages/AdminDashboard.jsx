@@ -3,7 +3,11 @@ import React, { useEffect, useState } from "react";
 const AdminDashboard = () => {
   const [stats, setStats] = useState({ items: 0, orders: 0, artists: 0 });
   const [orders, setOrders] = useState([]);
+<<<<<<< HEAD
 
+=======
+  //test
+>>>>>>> deed6525f137046e4e43caefc01c5cd09c752158
   useEffect(() => {
     // Fetch items
     fetch("http://localhost:5000/api/items")
@@ -59,7 +63,11 @@ const AdminDashboard = () => {
             </a>
           </li>
           <li className="relative group">
+<<<<<<< HEAD
             <a href="/admin/products" className="text-[#F5F5F5] hover:text-[#FFD700] transition duration-300">
+=======
+            <a href="#" className="text-[#F5F5F5] hover:text-[#FFD700] transition duration-300">
+>>>>>>> deed6525f137046e4e43caefc01c5cd09c752158
               Products
               <span className="block w-0 h-[2px] bg-[#AAAAAA] transition-all duration-300 group-hover:w-full"></span>
             </a>
